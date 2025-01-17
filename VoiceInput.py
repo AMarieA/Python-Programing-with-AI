@@ -8,7 +8,7 @@ from openai import OpenAI
 
 client = OpenAI()
 
-telegram_API_TOKEN = "7359144680:AAFrv8mGk2tz6QWTwn-4E7Pa4T8fGqpudWk"
+telegram_API_TOKEN = ""
 
 messages = [{"role": "system",
             "content": "You are a helpful telegram bot who is always conside and polite in its answers."}]
