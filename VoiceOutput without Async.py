@@ -4,8 +4,8 @@ from moviepy.editor import AudioFileClip
 from openai import OpenAI
 from elevenlabslib import *
 
-telegram_API_TOKEN = "7359144680:AAFrv8mGk2tz6QWTwn-4E7Pa4T8fGqpudWk"
-ElevenLabs_API_KEY = "sk_c904b4affae638f63285e51b0f2819ef4614835f44d84867"
+telegram_API_TOKEN = ""
+ElevenLabs_API_KEY = ""
 
 client = OpenAI()
 user = ElevenLabsUser(ElevenLabs_API_KEY)
