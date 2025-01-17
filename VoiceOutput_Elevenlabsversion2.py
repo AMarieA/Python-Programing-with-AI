@@ -6,8 +6,8 @@ from elevenlabslib import *
 
 client = OpenAI()
 
-telegram_API_TOKEN = "7359144680:AAFrv8mGk2tz6QWTwn-4E7Pa4T8fGqpudWk"
-ElevenLabs_API_KEY = "sk_4f636dc58438e85842da12e1b5626fa4045021cf5d10b215"
+telegram_API_TOKEN = ""
+ElevenLabs_API_KEY = ""
 
 user= ElevenLabsUser(ElevenLabs_API_KEY)
 #List due to multiple voices can have same name
